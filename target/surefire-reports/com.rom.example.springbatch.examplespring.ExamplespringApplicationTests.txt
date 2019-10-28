@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.rom.example.springbatch.examplespring.ExamplespringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.86 s <<< FAILURE! - in com.rom.example.springbatch.examplespring.ExamplespringApplicationTests
+initializationError(com.rom.example.springbatch.examplespring.ExamplespringApplicationTests)  Time elapsed: 0.1 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
